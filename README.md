@@ -26,6 +26,7 @@ copy .env.example .env
 php artisan key:generate
 ```
 5. Run migration for create users table, admins  tables :
+otherwise import the db file to your local db
 ```bash
 php artisan migrate --seed
 ```
